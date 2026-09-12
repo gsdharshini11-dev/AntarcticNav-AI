@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "server": "tsx server/index.ts",
-    "start": "tsx server/index.ts"
+    "server": "node node_modules/tsx/dist/cli.mjs server/index.ts",
+    "start": "node node_modules/tsx/dist/cli.mjs server/index.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.116.0",
