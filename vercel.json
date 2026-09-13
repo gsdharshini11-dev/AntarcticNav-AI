@@ -1,6 +1,7 @@
 {
   "framework": "vite",
-  "buildCommand": "chmod +x node_modules/.bin/* && npx vite build",
+  "installCommand": "npm install --foreground-scripts",
+  "buildCommand": "npx vite build",
   "outputDirectory": "dist",
   "rewrites": [
     {
