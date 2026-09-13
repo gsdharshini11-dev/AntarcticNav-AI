@@ -1,7 +1,7 @@
 {
   "framework": "vite",
   "installCommand": "npm install --foreground-scripts",
-  "buildCommand": "node build.js",
+  "buildCommand": "node build.cjs",
   "outputDirectory": "dist",
   "rewrites": [
     {

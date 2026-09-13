@@ -1,4 +1,4 @@
-﻿import { build } from 'vite';
+﻿const { build } = require('vite');
 
 build().then(() => {
   console.log('AntarcticNav AI build complete!');
