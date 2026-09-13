@@ -1,6 +1,6 @@
 {
   "framework": "vite",
-  "installCommand": "npm install --foreground-scripts && chmod +x node_modules/.bin/*",
+  "installCommand": "NODE_ENV=development npm install --include=dev --foreground-scripts && chmod +x node_modules/.bin/*",
   "buildCommand": "npx vite build",
   "outputDirectory": "dist",
   "rewrites": [
